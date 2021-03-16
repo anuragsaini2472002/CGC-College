@@ -1,0 +1,188 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('hori.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.nav{
+	
+	width: 100%;
+	height: 140px;
+}
+.btnn{
+	float: right;
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 4px 5px;
+	color: purple;
+	background-color: #fff;
+	border-radius: 35px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: 'Fondamento';
+}
+.btnn:hover{
+	background-color: purple;
+	color: white;
+}
+.btnn a:hover{
+	color: #fff;
+}
+.btnn{
+	transition-property:  width,height;
+	transition-duration: .4s;
+	transition-timing-function: linear;
+	transition: .4s linear;
+}
+.btnn:hover{
+	width: 80px;
+	height: 70px;
+}
+/*.nav li{
+	float: right;
+	display: inline-block;
+}*/
+/*.nav {
+	text-decoration: none;
+	padding-right: 40px;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: grey;
+}*/
+/*.nav li a:hover{
+	color: purple;
+	text-transform: lowercase;
+	text-decoration:underline;
+}*/
+.logo{
+	margin-left: 4px;
+}
+.logo img{
+	width: 110px;
+	height: 22vh;
+	opacity: 0.7;
+}
+.main{
+	font-family: 'Fondamento';
+	width: 100%;
+	/*border: 1px solid red;*/
+	/*height: 150px;*/
+	font-size: 60px;
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-left: 15%;
+
+}
+.small{
+	font-style: italic;
+	font-family: sans-serif;
+	color: green;
+	word-spacing: 3px;
+	font-size: 25px;
+	margin-top: 9px;
+	padding-left: 25%;
+}
+.another{
+	/*width: 100%;*/
+	/*border: 1px solid red;*/
+	color: purple;
+	font-size: 30px;
+	margin-top:80px;
+	text-align: right;
+	padding-right: 60px;
+	text-decoration: underline;
+	font-style: italic;
+	font-family: sans-serif;
+	word-spacing: 2px;
+}
+.another:hover{
+}
+.btn{
+	margin-left: 34%;
+	margin-top: 50px;
+}
+
+.btn button{
+	background-color: purple;
+	color: white;
+	font-size: 25px;
+	padding: 3px 4px;
+}
+.btn button:hover{
+	background-color: grey;
+}
+@media screen and (max-width: 1000px)
+{
+	.main{
+		font-size: 50px;
+	}
+	.another{
+		font-size: 25px;
+	}
+	.small{
+		font-size: 20px;
+	}
+/*	.nav li a{
+		font-size: 27px;
+	}
+*/	.btn button{
+		font-size: 21px;
+	}
+	.logo img{
+		width: 100px;
+		height: 20vh;
+	}
+
+}
+@media screen and (max-width: 900px){
+	.main{
+		font-size: 40px;
+	}
+	.another{
+		font-size: 20px;
+	} 
+	.small{
+		font-size: 18px;
+	}
+/*	.nav li a{
+		font-size: 25px;
+	}*/
+	.btn button{
+		font-size: 18px;
+	}
+	.logo img{
+		width: 95px;
+		height: 18vh;
+	}
+
+}
+@media screen and (max-width: 600px){
+	.main{
+		font-size: 30px;
+	}
+	.another{
+		font-size: 17px;
+	}
+	/*.nav li a{
+		font-size: 20px;
+	}*/
+	.small{
+		font-size: 16px;
+	}
+	.logo img{
+		width: 90px;
+		height: 16vh;
+	}
+}
+.btnn a{
+	text-decoration: none;
+}
